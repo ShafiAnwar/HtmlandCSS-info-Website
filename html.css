@@ -1,0 +1,81 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 3vw;
+}
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.my_nav_bar{
+    background-color: transparent;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+  align-items: center;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+.my_nav_bar{
+  background-color: transparent;
+  color: black;
+  float: left;
+}
+canvas{
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate{
+    0%{
+        box-shadow: 1px 1px 38px rgb(6, 159, 248);
+    }
+    25%{   box-shadow: 1px 1px 38px rgb(66, 140, 184);
+    }
+    50%{
+        box-shadow: 1px 1px 38px rgb(20, 89, 129);
+    }
+    75%{
+        box-shadow: 1px 1px 38px rgb(26, 78, 221);
+    }
+    100%{
+        box-shadow: 1px 1px 38px rgb(84, 27, 216);
+    }
+} 
+#close_1:hover{
+    background-color: red;
+} 
+
+
+
+
+
